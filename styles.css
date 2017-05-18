@@ -1,78 +1,113 @@
-/*
-Error: Invalid CSS after "      font": expected "{", was "}"
-        on line 23 of scss/content/_header.scss
-        from line 12 of scss/styles.scss
-
-18: 
-19:     .number {
-20:       margin-top: 17px;
-21:       margin-right: 17px;
-22:       font
-23:     }
-24: 
-25:   }
-26: 
-27: }
-
-Backtrace:
-scss/content/_header.scss:23
-scss/styles.scss:12
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1179:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1115:in `expected'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1110:in `tok!'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:654:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:655:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:655:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:655:in `block'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:647:in `ruleset'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:673:in `block_child'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:123:in `stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:39:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:403:in `_to_tree'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:309:in `to_tree'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:88:in `block in with_import'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:88:in `with_import'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:323:in `visit_import'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:166:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:186:in `visit_root'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:157:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:378:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:295:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:410:in `run'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:63:in `process_result'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
-/usr/bin/sass:8:in `<main>'
+/**
+ * Styles
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"      font\": expected \"{\", was \"}\"\A         on line 23 of scss/content/_header.scss\A         from line 12 of scss/styles.scss\A \A 18: \A 19:     .number {\A 20:       margin-top: 17px;\A 21:       margin-right: 17px;\A 22:       font\A 23:     }\A 24: \A 25:   }\A 26: \A 27: }"; }
+/* line 1, scss/core/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, scss/core/_layout.scss */
+body {
+  color: #404142;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+/* line 7, scss/core/_layout.scss */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 12, scss/core/_layout.scss */
+.media-body, .media-left, .media-right {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* line 17, scss/core/_layout.scss */
+.media-left {
+  padding-right: 10px;
+}
+
+/* line 21, scss/core/_layout.scss */
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/* line 25, scss/core/_layout.scss */
+.row .media-body h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 30, scss/core/_layout.scss */
+.row .media-heading {
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px solid #efefef;
+  padding-bottom: 10px;
+}
+
+/* line 37, scss/core/_layout.scss */
+.col-md-6 {
+  width: 47%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 15px;
+}
+/* line 44, scss/core/_layout.scss */
+.col-md-6 .media-object {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* line 4, scss/content/_header.scss */
+header {
+  background-color: white;
+  height: 83px;
+}
+/* line 8, scss/content/_header.scss */
+header a {
+  margin-top: 16px;
+  margin-left: 30px;
+}
+/* line 13, scss/content/_header.scss */
+header .panier {
+  float: right;
+  background: url("images/Forme 6.png") no-repeat 50% 50% #EB2645;
+  height: 83px;
+  width: 104px;
+}
+/* line 19, scss/content/_header.scss */
+header .panier .number {
+  margin-top: 17px;
+  margin-right: 17px;
+}
+
+/* line 1, scss/content/_home-page.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, scss/content/_home-page.scss */
+body {
+  background-color: #404142;
+}
+
+/* line 10, scss/content/_home-page.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, scss/content/_home-page.scss */
+.wrapper {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

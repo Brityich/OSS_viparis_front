@@ -1,0 +1,27 @@
+$height: 83px;
+$width: 1380px;
+
+header {
+  background-color: white;
+  height: $height;
+
+  a {
+    margin-top: 16px;
+    margin-left: 30px;
+  }
+
+  .panier {
+    float: right;
+    background: url('images/Forme 6.png') no-repeat 50% 50% #EB2645;
+    height: $height;
+    width: 104px;
+
+    .number {
+      margin-top: 17px;
+      margin-right: 17px;
+
+    }
+
+  }
+
+}

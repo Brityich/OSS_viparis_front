@@ -1,0 +1,50 @@
+body {
+  color: #404142;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.media-body, .media-left, .media-right {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-left {
+  padding-right: 10px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  .media-body {
+    h5 {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+  .media-heading {
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+  }
+}
+.col-md-6 {
+  width: 47%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 15px;
+
+  .media-object {
+    max-width: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "oss_17",
+  "version": "1.0.0",
+  "description": "OSS_17_grunt",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brityich/OSS_viparis_front.git"
+  },
+  "author": "Sasha Britov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brityich/OSS_viparis_front/issues"
+  },
+  "homepage": "https://github.com/Brityich/OSS_viparis_front#readme",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sass": "latest",
+    "gulp": "^3.9.1"
+  }
+}

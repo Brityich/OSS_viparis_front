@@ -4,23 +4,44 @@ $width: 1380px;
 header {
   background-color: white;
   height: $height;
+  width: $width;
+  margin: 0 auto;
+  display: inline-block;
+  list-style: none;
 
-  a {
-    margin-top: 16px;
-    margin-left: 30px;
+
+  #logo {
+    display: inline-block;
+    padding-top: 16px;
+    padding-left: 30px;
   }
 
-  .panier {
+  ul {
+    display: inline-block;
+    position: absolute;
+    top: 36px;
+    right: 60px;
+
+    li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+  }
+
+  #panner {
     float: right;
     background: url('images/Forme 6.png') no-repeat 50% 50% #EB2645;
     height: $height;
     width: 104px;
 
-    .number {
-      margin-top: 17px;
-      margin-right: 17px;
-
+    span {
+      top: 74px;
+      right: 17px;
+      color: white;
     }
+  }
+
+  #panner:hover{
 
   }
 

@@ -69,45 +69,77 @@ body {
 header {
   background-color: white;
   height: 83px;
-}
-/* line 8, scss/content/_header.scss */
-header a {
-  margin-top: 16px;
-  margin-left: 30px;
+  width: 1380px;
+  margin: 0 auto;
+  display: inline-block;
+  list-style: none;
 }
 /* line 13, scss/content/_header.scss */
-header .panier {
+header #logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-left: 30px;
+}
+/* line 19, scss/content/_header.scss */
+header ul {
+  display: inline-block;
+  position: absolute;
+  top: 36px;
+  right: 60px;
+}
+/* line 25, scss/content/_header.scss */
+header ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+/* line 31, scss/content/_header.scss */
+header #panner {
   float: right;
   background: url("images/Forme 6.png") no-repeat 50% 50% #EB2645;
   height: 83px;
   width: 104px;
 }
-/* line 19, scss/content/_header.scss */
-header .panier .number {
-  margin-top: 17px;
-  margin-right: 17px;
+/* line 37, scss/content/_header.scss */
+header #panner span {
+  top: 74px;
+  right: 17px;
+  color: white;
 }
 
 /* line 1, scss/content/_home-page.scss */
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-/* line 6, scss/content/_home-page.scss */
+/* line 7, scss/content/_home-page.scss */
 body {
-  background-color: #404142;
+  background-color: #F5F6F7;
+  height: 2212px;
 }
 
-/* line 10, scss/content/_home-page.scss */
+/* line 12, scss/content/_home-page.scss */
 a {
   text-decoration: none;
 }
 
-/* line 14, scss/content/_home-page.scss */
-.wrapper {
+/* line 16, scss/content/_home-page.scss */
+#wrapper {
   width: 1380px;
   margin: 0 auto;
+}
+
+/* line 21, scss/content/_home-page.scss */
+#calque {
+  background: url("images/Calque37.png") 50% 40%;
+  width: 1380px;
+  height: 263px;
+}
+/* line 26, scss/content/_home-page.scss */
+#calque #text {
+  padding-top: 167px;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

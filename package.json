@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/Brityich/OSS_viparis_front.git"
   },
-  "author": "Sasha Britov",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
     "url": "https://github.com/Brityich/OSS_viparis_front/issues"
   },
@@ -21,6 +21,7 @@
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-sass": "latest",
     "grunt-contrib-watch": "latest",
+    "grunt-html-build": "^0.7.1",
     "grunt-sass": "latest",
     "gulp": "^3.9.1"
   }

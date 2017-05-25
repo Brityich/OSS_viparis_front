@@ -1,17 +1,31 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 body {
-
+  background-color: #F5F6F7;
+  height: 2212px;
 }
 
 a {
   text-decoration: none;
 }
 
-.wrapper{
+#wrapper{
   width: 1380px;
   margin: 0 auto;
+}
+
+#calque {
+  background: url('images/Calque37.png') 50% 40%;
+  width: $width;
+  height: $height-calque;
+
+  #text {
+    padding-top: 167px;
+    
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  }
 }

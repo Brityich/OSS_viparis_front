@@ -1,0 +1,24 @@
+footer {
+  height: 451px;
+  background-color: #182D47;
+
+  #aide {
+    height: 78px;
+    background-color: #E31D3C;
+
+    ul {
+      display: inline-block;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      width: 145px;
+      
+      a {
+        text-align: center;
+      }
+    }
+  }
+
+}

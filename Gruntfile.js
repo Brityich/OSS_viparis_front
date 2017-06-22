@@ -79,7 +79,11 @@ module.exports = function(grunt) {
                     },
                 }
             }
+        },
+        spritesmith: {
+
         }
+
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');

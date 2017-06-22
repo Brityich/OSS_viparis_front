@@ -19,10 +19,11 @@
   "devDependencies": {
     "grunt": "latest",
     "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-sass": "latest",
+    "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "latest",
     "grunt-html-build": "^0.7.1",
     "grunt-sass": "latest",
+    "grunt-spritesmith-hd": "^0.4.4",
     "gulp": "^3.9.1"
   }
 }

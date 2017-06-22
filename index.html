@@ -5,46 +5,227 @@
     <meta charset="UTF-8">
     <title>Viparis store</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css" </head>
 
-<body>
-    <div id="page-wrapper">
-        <header id="header">
-            <div id="menu">
+    <body>
+        <div id="container">
+            <header id="header" class="row">
                 <div id="logo">
                     <a href="index.html"><img src="images/Logo%20VIPARIS-STORE%20.png"></a>
                 </div>
+
                 <ul>
                     <li>
-                        <a href="#">MON COMPTE</a>
-                    </li>
-                    <li>
-                        <a href="#">LISTE D'ACHATS</a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/Fr.png"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/Uk.png"></a>
-                    </li>
+                        <div id="top-1">
+                            <a href="#" id="a-1"><span id="span-1">MON COMPTE</span></a>
+                            <a href="#" id="a-2"><span id="span-2">LISTE D'ACHATS</span></a>
+                        </div>
+                        <li>
+                            <div id="top-2">
+                                <a href="#"><img src="images/Fr.png"></a>
+                                <a href="#"><img src="images/Uk.png"></a>
+                            </div>
+                        </li>
                 </ul>
+
                 <div id="panner">
                     <span>10</span>
                 </div>
-            </div>
-        </header>
-        <div id="content-wrapper">
-            <div id="calque">
-                <div id="text">
-                    Le rendez-vous mondial de l'innovation alimentaire
+            </header>
+            <div id="content-wrapper">
+                <div id="calque">
+                    <div id="text">
+                        Le rendez-vous mondial de l'innovation alimentaire
+                    </div>
                 </div>
-            </div>
-            <div id="sidebar">
+
+                <!--MENU-->
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#.html" class="href">
+                    <span>PRESENTATION</span>
+                </a>
+                            <div class="menu-over">
+                                <div class="row">
+                                    <div class="col-lg-3 column">
+                                        <span class="main">Electricite</span>
+                                        <ul>
+                                            <li>tab 1</li>
+                                            <li>tab 2</li>
+                                            <li>tab 3</li>
+                                            <li>tab 4</li>
+                                            <li>tab 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 column">
+                                        <span class="main">Electricite</span>
+                                        <ul>
+                                            <li>tab 1</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 column">
+                                        <span class="main">Electricite</span>
+                                        <ul>
+                                            <li>tab 1</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 column">
+                                        <span class="main">Electricite</span>
+                                        <ul>
+                                            <li>tab 1</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#.html" class="href">
+                    <span>ACCEDER AU SITE</span>
+                </a>
+                        </li>
+                        <li>
+                            <a href="#.html" class="href">
+                    <span>BRANCHER MON STAND</span>
+                </a>
+                        </li>
+                        <li>
+                            <a href="#.html" class="href">
+                    <span>AMENAGER MON STAND</span>
+                </a>
+                        </li>
+                        <li>
+                            <a href="#.html" class="href">
+                    <span>SERVICES</span>
+                </a>
+                        </li>
+                        <li>
+                            <a href="#.html" class="href">
+                    <span>AUTOUR DE MA MANIFESTATION</span>
+                </a>
+                        </li>
+                    </ul>
+
+                    <input type="text" placeholder="Recherche" id="recherche" src="images/Loupe.png">
+                </div>
+
+                <div id="main">
+
+                    <div id="pagination">
+                        <span>ACCUEIL </span>
+                        <span id="text-pagination">> PRESENTATION </span>
+                    </div>
+
+                    <div id="date-1">
+                        <span id="text-date-1">Palais des Congrès de Paris </span>
+                        <span> du 01/10/2016 au 16/11/2016</span>
+                    </div>
+
+                    <div class="mainblock row">
+                        <div id="infos" class="col-lg-3 col-md-3">
+                            <span>INFORMATIONS PRATIQUES</span>
+                            <ul type="none">
+                                <li id="li1">Informations pratiques</li>
+                                <li id="li2">Site de l’organisateur</li>
+                                <li id="li3">Télécharger le cataloge de produits</li>
+                                <li id="li4">Télécharger le dossier technique</li>
+                                <li id="li5">Télécharger le dossier technique</li>
+                            </ul>
+                            <img src="images/Calque 26.png">
+                        </div>
+
+                        <div id="actus" class="col-lg-9 col-md-9">
+                            <div class="row actus-content">
+                                <img src="images/Calque 29.png" class="actus-image col-lg-4">
+                                <div class="slider col-lg-8">
+                                    <p>qwe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="suggestions-block">
+                    <span id="nossuggestions">NOS SUGGESTIONS</span>
+                    <div id="suggestions" class="row">
+                        <div class="sug1" class="col-lg-3 col-md-3">
+                            <img class="image1" src="images/Calque 30.png">
+                        </div>
+                        <div class="sug2" class="col-lg-3 col-md-3">
+                            <img class="image2" src="images/Calque 32.png">
+                        </div>
+                        <div class="sug3" class="col-lg-3 col-md-3">
+                            <img class="image3" src="images/Calque 33.png">
+                        </div>
+                        <div class="sug4" class="col-lg-3 col-md-3">
+                            <img class="image4" src="images/Calque 30.png">
+                        </div>
+                    </div>
+                </div>
 
             </div>
+            <footer id="footer">
+                <div id="aide">
+                    <ul>
+                        <li id="besoin"><a href="#">BESOIN D'AIDE ?</a></li>
+                        <li id="faq"><a href="#">FAQ</a></li>
+                        <li id="chat"><a href="#">TCHAT</a></li>
+                        <li id="appeler"><a href="#">APPELER</a></li>
+                        <li id="contact"><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+
+                <div class="row bottom">
+                    <div class="col-lg-3">
+                        <div class="paragraph">
+                            <span style="font-weight: 400" class="span-bold">PREMIER SALON</span>
+                            <div class="separator"></div>
+                            <span>Les informations cles</span>
+                        </div>
+                        <div class="paragraph">
+                            <span style="font-weight: 400">SERVICE EXPOSANTS</span>
+                            <div class="separator"></div>
+                            <span>Les conseils de nos experts</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="paragraph">
+                            <span style="font-weight: 400">LISTE D'ACHATS</span>
+                            <div class="separator"></div>
+                            <span>Reservec avant de commander</span>
+                        </div>
+                        <div class="paragraph">
+                            <span style="font-weight: 400">DEVENIR PRESTATAIRE</span>
+                            <div class="separator"></div>
+                            <span>Donnez de la visibilite a vos produits</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="paragraph">
+                            <span style="font-weight: 400; text-align:left">Lettre d'information</span>
+                            <br>
+                            <span>Etre alerte des avantages & nouveautes</span>
+                            <input type="mail" placeholder="Votre adresse mail" class="enter-mail">
+                        </div>
+                        <div class="paragraph">
+                            <span>Viparis social</span>
+                            <span>Restez connecter sur les reseaux sociaux</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="paragraph">
+                            <span>Sites du groupe</span>
+                            <span>Decouvrez notre groupe</span>
+                        </div>
+                        <div class="paragraph">
+                            <span>viparis</span>
+                            <span>viparis</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-
-    </div>
-</body>
+    </body>
 
 </html>

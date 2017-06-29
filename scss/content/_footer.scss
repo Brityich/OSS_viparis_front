@@ -2,8 +2,11 @@ footer {
   
   #aide {
     display: block;
+    position: relative;
     height: 78px;
     background-color: #E31D3C;
+    padding-left: 20%;
+
 
     #footer-list {
       margin: 0 auto;
@@ -12,22 +15,56 @@ footer {
 
     ul {
       display: inline-block;
-      text-align: center;
-      margin: auto;
+      margin-top: 30px;
     }
 
     li {
       display: inline-block;
-      width: 145px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      margin-left: 60px;
+      margin-bottom: 25px;
       
       a {
         text-align: center;
+        text-decoration: none;
+        color: white;
       }
+    }
+    #faq:before{
+      content: " ";
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url("images/Faq.png") no-repeat;
+    }
+    #tchat:before{
+      content: " ";
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url("images/Tchat.png") no-repeat;
+    }
+    #appeler:before{
+      content: " ";
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url("images/Appel.png") no-repeat;
+    }
+    #contact:before{
+      content: " ";
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url("images/Contact.png") no-repeat;
     }
   }
 
   .bottom {
     display: table;
+    display: block;
     background-color: #182D47;
     padding-top: 22px;
     padding-bottom: 50px;
